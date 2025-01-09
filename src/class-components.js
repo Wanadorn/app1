@@ -11,10 +11,10 @@ export default class Calendar extends Component{
         const month = monthNames[date.getMonth()]
         const year = date.getFullYear() + 543
 
-        return `วัน${weekDay}ที่ ${day} ${month} ${year}`
+        return `วัน${weekDay} ที่ ${day} ${month} ${year}`
     }
 
     render(){
-        return <div>{this.getDate}</div>
+        return <div>{this.getDate()}</div>
     }
 }
