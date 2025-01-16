@@ -5,10 +5,11 @@ import Button from "./event-class";
 import { Calculator2 } from "./calculator";
 import { EvenData2 } from "./event-data";
 import RefsFunc from "./refs-func";
+import MessageBox from "./state-func";
 
 
 function App() {  
-  return <RefsFunc/>
+  return <MessageBox/>
 }
 
 export default App;
