@@ -13,7 +13,7 @@ export default function Content2(){
 
     const onClickSignin = (event) =>{
         event.preventDefault()
-        setUser('Wanadorn')
+        setUser('Tom Jerry')
     }
 
     return(
