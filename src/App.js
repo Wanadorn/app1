@@ -1,15 +1,15 @@
 import React from "react";
-import { Header,Content,Footer } from "./func-components";
-import Calendar from "./class-components";
-import Button from "./event-class";
-import { Calculator2 } from "./calculator";
-import { EvenData2 } from "./event-data";
-import RefsFunc from "./refs-func";
-import MessageBox from "./state-func";
+import { userContext } from "./context";
+import Content from "./context-content";
 
 
 function App() {  
-  return <MessageBox/>
+  return (
+    <userContext.Provider value={'Tom Jerry'}>
+      <Content></Content>
+    </userContext.Provider>
+  )
 }
+
 
 export default App;
